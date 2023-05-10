@@ -39,6 +39,7 @@ function App() {
         />
         <button type="submit">Submit</button>
       </form>
+      {url && <p>URL: {url}</p>}
       {submittedUrl && <p>Submitted URL: {submittedUrl}</p>}
     </div>
   );
